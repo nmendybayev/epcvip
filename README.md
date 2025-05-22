@@ -185,4 +185,4 @@ zsh: command not found: #
 
 ![CloudWatch](images/CloudWatch.png)
 | ✅ Done | Use `terraform output` to display key info (like ALB DNS) |
-| ✅ Done | Use variables for environment reuse |# epcvip
+| ✅ Done | Use variables for environment reuse |
