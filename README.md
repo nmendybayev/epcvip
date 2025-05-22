@@ -167,10 +167,10 @@ zsh: command not found: #
 | ✅ Done | Simulate load using `stress` utility |
 ![High](images/Alarm high CPU.png)
 | ✅ Done | Confirm new instance is added during load |
-![3ec2](images/3.png)
+![3](images/3.png)
 | ✅ Done | Observe scale-in event once load is removed |
 ![Low](images/Alarm works.png)
-![1ec2](images/1.png)
+![1](images/1.png)
 
 
 ## ⭐ Bonus Points
@@ -179,7 +179,7 @@ zsh: command not found: #
 |--------|--------------------------|
 | ✅ Done | Use Terraform modules or CloudFormation nested stacks |
 | ✅ Done | Integrate CloudWatch Logs |
-![Logs](images/Log events.png)
-![Cloudwatch](images/Cloudwatch.png)
+![Log events](images/Log events.png)
+![CloudWatch](images/CloudWatch.png)
 | ✅ Done | Use `terraform output` to display key info (like ALB DNS) |
 | ✅ Done | Use variables for environment reuse |# epcvip
