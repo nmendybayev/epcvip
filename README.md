@@ -145,7 +145,7 @@ terraform destroy -var-file='dev.tfvars' -auto-approve
 | ✅ Done | Use User Data script to install Apache/Nginx and create "Hello, DevOps Test!" page |
 ![Hello](images/Hello.png)
 | ✅ Done | Deploy ASG with desired capacity of 2 |
-![EC2](images/EC2.png)
+![VM](images/EC2.png)
 | ✅ Done | Associate ASG with the Target Group |
 | ✅ Done | Verify instances register to TG and serve content via ALB DNS |
 | ✅ Done | Confirm ALB DNS serves traffic from both instances |
@@ -165,7 +165,8 @@ zsh: command not found: #
 | ✅ Done | **Auto Scaling Policy** - Set scale-out policy for CPU > 70% for 5 mins |
 
 | ✅ Done | Simulate load using `stress` utility |
-![AlarmhighCPU](images/AlarmhighCPU.png)
+![CPU](images/AlarmhighCPU.png)
+
 | ✅ Done | Confirm new instance is added during load |
 ![3](images/3.png)
 | ✅ Done | Observe scale-in event once load is removed |
@@ -179,7 +180,9 @@ zsh: command not found: #
 |--------|--------------------------|
 | ✅ Done | Use Terraform modules or CloudFormation nested stacks |
 | ✅ Done | Integrate CloudWatch Logs |
+
 ![Logevents](images/Logevents.png)
+
 ![CloudWatch](images/CloudWatch.png)
 | ✅ Done | Use `terraform output` to display key info (like ALB DNS) |
 | ✅ Done | Use variables for environment reuse |# epcvip
